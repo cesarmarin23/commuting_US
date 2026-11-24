@@ -1,0 +1,147 @@
+msa,agency,ntd_id,ntd_mode,route_type,vehicle,fuel,infrastructure,operations,total,total_low,total_high,biogenic_zero_variant_total,passenger_miles_million,included_in_msa_pool,notes
+NY,MTA New York City Transit,20008,HR,1,1.9,63.9,10.3,0.0,76.1,76.1,96.5,76.1,7794.51,1,
+NY,MTA New York City Transit,20008,MB,3,8.5,192.8,3.8,0.0,205.2,202.4,213.1,205.2,1196.43,1,
+NY,MTA New York City Transit,20008,CB,3,7.4,187.1,3.3,0.0,197.9,197.9,204.9,197.9,158.78,1,
+NY,MTA New York City Transit,20008,RB,3,5.7,130.6,2.6,0.0,138.9,138.9,144.2,138.9,64.82,1,
+NY,MTA Bus Company,20188,MB,3,8.8,232.3,4.0,0.0,245.1,241.7,253.3,245.1,363.78,1,
+NY,MTA Long Island Rail Road,20100,CR,2,1.5,94.9,7.9,0.0,104.2,104.2,119.9,104.2,2499.87,1,eGRID split NYCW/NYLI 50/50 is an assumption
+NY,MTA Metro-North Railroad,20078,CR,2,2.0,95.0,10.7,0.0,107.7,107.7,128.9,106.1,1779.62,1,eGRID split NYCW/NEWE 67/33 is an assumption (New Haven Line in Connecticut); no electricity reported for RY2022
+NY,MTA Staten Island Railway,20099,HR,1,8.1,249.5,43.9,0.0,301.4,301.4,388.6,301.4,31.42,1,
+NY,Port Authority Trans-Hudson (PATH),20098,HR,1,2.1,67.5,11.1,0.0,80.7,80.7,102.8,80.7,304.0,1,eGRID RFCE (New Jersey supply) assumed
+NY,New Jersey Transit,20080,CR,2,2.2,120.1,12.2,0.0,134.5,134.5,158.7,134.5,1544.63,1,statewide agency; pooled in New York MSA only
+PHL,New Jersey Transit,20080,CR,2,2.2,120.1,12.2,0.0,134.5,134.5,158.7,134.5,1544.63,0,statewide agency; pooled in New York MSA only
+NY,New Jersey Transit,20080,MB,3,10.6,192.0,4.8,0.0,207.3,206.5,217.2,207.3,944.5,1,statewide agency; pooled in New York MSA only
+PHL,New Jersey Transit,20080,MB,3,10.6,192.0,4.8,0.0,207.3,206.5,217.2,207.3,944.5,0,statewide agency; pooled in New York MSA only
+NY,New Jersey Transit,20080,LR,0,9.4,102.8,51.2,0.0,163.5,163.5,265.3,163.5,71.68,1,Hudson-Bergen and Newark light rail
+PHL,New Jersey Transit,20080,LR,0,9.4,102.8,51.2,0.0,163.5,163.5,265.3,163.5,71.68,0,Hudson-Bergen and Newark light rail
+NY,New Jersey Transit,20080,YR,2,13.2,153.2,71.5,0.0,237.9,237.9,380.0,237.9,27.02,1,River LINE (diesel light rail; physically in Philadelphia MSA and Trenton)
+PHL,New Jersey Transit,20080,YR,2,13.2,153.2,71.5,0.0,237.9,237.9,380.0,237.9,27.02,0,River LINE (diesel light rail; physically in Philadelphia MSA and Trenton)
+NY,Nassau Inter County Express,20206,MB,3,8.9,160.3,4.0,0.0,173.1,158.4,181.4,173.1,118.57,1,
+NY,Westchester County Bee-Line,20076,MB,3,9.9,173.3,4.4,0.0,187.6,187.6,196.9,187.6,94.55,1,
+NY,Suffolk County Transit,20072,MB,3,36.7,426.2,16.5,0.0,479.4,479.4,513.7,479.4,26.71,1,
+NY,County of Rockland,20084,MB,3,36.6,603.7,16.5,0.0,656.8,656.8,691.0,656.8,6.5,1,
+NY,Shortline Transit (Coach USA),20126,CB,3,5.4,75.3,2.4,0.0,83.0,83.0,88.1,83.0,98.05,1,private commuter carrier
+NY,Hampton Jitney,20217,CB,3,5.3,56.8,2.4,0.0,64.5,64.5,69.5,64.5,58.5,1,private commuter carrier
+NY,Academy Lines,20122,CB,3,6.4,123.0,2.9,0.0,132.2,132.2,138.2,9.6,47.32,1,private commuter carrier; all fuel reported as bio-diesel
+NY,Adirondack Trailways,20177,CB,3,5.2,45.3,2.3,0.0,52.8,52.8,57.6,7.8,31.24,1,private carrier; mostly outside MSA; all fuel reported as bio-diesel
+NY,Trans-Bridge Lines,20169,CB,3,6.4,69.8,2.9,0.0,79.1,79.1,85.1,9.7,30.66,1,private carrier; partly outside MSA; all fuel reported as bio-diesel
+NY,Suburban Transit (Coach USA),20128,CB,3,7.4,73.8,3.3,0.0,84.6,84.6,91.5,84.6,28.12,1,private commuter carrier
+NY,Lakeland Bus Lines,20163,CB,3,5.0,97.7,2.2,0.0,104.9,104.9,109.5,104.9,25.9,1,private commuter carrier
+NY,Rockland Coaches (Coach USA),20149,CB,3,11.5,252.8,5.2,0.0,269.5,269.5,280.2,269.5,9.7,1,private commuter carrier
+NY,NYC DOT Staten Island Ferry,20082,FB,4,0.0,421.0,0.0,0.0,421.0,421.0,421.0,421.0,84.32,1,other fuel 627890 gal-eq of unknown type treated as diesel
+NY,NYC Economic Development Corp. (NYC Ferry),22930,FB,4,0.0,828.3,0.0,0.0,828.3,828.3,828.3,828.3,36.44,1,
+NY,SeaStreak,20226,FB,4,0.0,883.3,0.0,0.0,883.3,883.3,883.3,883.3,25.96,1,
+NY,NY Waterway (Port Imperial Ferry),20190,FB,4,0.0,1253.9,0.0,0.0,1253.9,1253.9,1253.9,1253.9,10.59,1,
+LA,Los Angeles County MTA (Metro),90154,MB,3,10.8,216.6,4.9,0.0,232.2,212.3,242.3,232.2,789.32,1,agency states its CNG is renewable natural gas (not separated in NTD)
+LA,Los Angeles County MTA (Metro),90154,RB,3,6.9,32.4,3.1,0.0,42.5,42.5,48.9,42.5,26.51,1,G Line battery-electric BRT
+LA,Los Angeles County MTA (Metro),90154,HR,1,4.1,78.0,22.0,0.0,104.0,104.0,147.7,104.0,115.77,1,
+LA,Los Angeles County MTA (Metro),90154,LR,0,8.6,69.0,46.4,0.0,124.0,124.0,216.2,124.0,313.95,1,
+LA,Southern California Regional Rail Authority (Metrolink),90151,CR,2,6.1,356.7,33.3,0.0,396.1,396.1,462.3,45.3,170.26,1,renewable diesel reported in the bio-diesel column; serves Los Angeles and Riverside MSAs (also Ventura and San Diego counties)
+RIV,Southern California Regional Rail Authority (Metrolink),90151,CR,2,6.1,356.7,33.3,0.0,396.1,396.1,462.3,45.3,170.26,1,renewable diesel reported in the bio-diesel column; serves Los Angeles and Riverside MSAs (also Ventura and San Diego counties)
+LA,Orange County Transportation Authority,90036,MB,3,16.5,293.4,7.4,0.0,317.3,290.5,332.6,317.3,124.77,1,
+LA,Foothill Transit,90146,MB,3,24.8,502.4,11.2,0.0,538.5,494.2,561.7,538.5,56.82,1,
+LA,Long Beach Transit,90023,MB,3,14.7,222.2,6.6,0.0,243.5,232.0,257.2,243.5,55.26,1,
+LA,City of Santa Monica Big Blue Bus,90008,MB,3,16.1,290.7,7.2,0.0,314.1,287.6,329.1,314.1,29.85,1,
+LA,City of Los Angeles (LADOT),90147,MB,3,39.4,801.3,17.7,0.0,858.4,788.7,895.2,858.4,22.81,1,
+LA,City of Los Angeles (LADOT),90147,CB,3,20.5,515.9,9.2,0.0,545.7,497.9,564.8,545.7,15.0,1,
+LA,Culver CityBus,90039,MB,3,15.8,313.1,7.1,0.0,336.1,307.3,350.8,336.1,11.02,1,
+LA,Anaheim Transportation Network,90211,MB,3,12.1,48.7,5.5,0.0,66.2,64.4,77.6,66.2,11.04,1,mostly battery-electric
+LA,Torrance Transit,90010,MB,3,21.3,289.6,9.6,0.0,320.5,294.6,340.3,320.5,10.38,1,
+LA,Montebello Bus Lines,90041,MB,3,19.8,329.3,8.9,0.0,358.0,330.3,376.4,358.0,9.75,1,
+LA,GTrans (Gardena),90042,MB,3,20.5,463.1,9.2,0.0,492.8,463.1,512.0,492.8,7.61,1,
+LA,Antelope Valley Transit Authority,90121,MB,3,37.4,136.4,16.8,0.0,190.7,190.7,225.6,190.7,7.52,1,battery-electric fleet; primary UZA Palmdale-Lancaster (Los Angeles County)
+LA,Antelope Valley Transit Authority,90121,CB,3,8.5,69.2,3.8,0.0,81.6,81.6,89.5,81.6,9.23,1,battery-electric commuter coaches
+LA,Santa Clarita Transit,90171,MB,3,23.4,228.9,10.5,0.0,262.8,242.2,284.7,262.8,7.55,1,primary UZA Santa Clarita (Los Angeles County)
+CHI,Chicago Transit Authority,50066,HR,1,4.8,136.5,26.2,0.0,167.5,167.5,219.5,167.5,773.72,1,
+CHI,Chicago Transit Authority,50066,MB,3,13.5,251.4,6.1,0.0,271.0,271.0,283.6,271.0,449.58,1,
+CHI,Metra,50118,CR,2,3.4,284.2,18.5,0.0,306.1,306.1,342.8,306.1,762.11,1,
+CHI,Pace Suburban Bus,50113,MB,3,28.5,354.6,12.8,0.0,396.0,390.4,422.6,395.7,100.77,1,
+CHI,Northern Indiana Commuter Transportation District (South Shore Line),50104,CR,2,5.9,89.8,31.9,0.0,127.6,127.6,191.1,127.6,57.77,1,
+DAL,Dallas Area Rapid Transit,60056,LR,0,13.4,172.1,72.4,0.0,257.9,257.9,401.9,257.9,161.49,1,
+DAL,Dallas Area Rapid Transit,60056,MB,3,26.3,449.1,11.8,0.0,487.3,446.0,511.9,487.3,118.7,1,
+DAL,Dallas Area Rapid Transit,60056,CR,2,12.9,666.6,69.7,0.0,749.3,749.3,887.9,749.3,17.41,1,Trinity Railway Express
+DAL,Trinity Metro (Fort Worth),60007,MB,3,45.0,849.7,20.2,0.0,914.8,850.4,956.8,914.8,16.17,1,
+DAL,Trinity Metro (Fort Worth),60007,CR,2,19.3,347.8,104.8,0.0,471.8,471.8,680.0,126.8,12.38,1,TEXRail; all fuel reported as bio-diesel
+HOU,Houston METRO,60008,MB,3,15.5,264.8,7.0,0.0,287.3,284.7,301.8,287.3,295.26,1,
+HOU,Houston METRO,60008,CB,3,10.4,202.7,4.7,0.0,217.8,217.8,227.6,217.8,76.69,1,park-and-ride commuter bus
+HOU,Houston METRO,60008,LR,0,20.7,141.2,112.5,0.0,274.5,274.5,498.0,274.5,37.85,1,
+HOU,The Woodlands Township,60134,CB,3,7.4,151.6,3.3,0.0,162.4,162.4,169.3,162.4,10.01,1,primary UZA The Woodlands-Conroe
+ATL,Metropolitan Atlanta Rapid Transit Authority,40022,HR,1,5.8,99.0,31.4,0.0,136.2,136.2,198.7,136.2,221.34,1,
+ATL,Metropolitan Atlanta Rapid Transit Authority,40022,MB,3,20.2,276.7,9.1,0.0,306.0,286.6,324.9,306.0,145.41,1,
+ATL,Atlanta-Region Transit Link Authority (Xpress),42000,CB,3,12.6,337.3,5.7,0.0,355.5,355.5,367.3,355.5,14.92,1,
+ATL,Ride Gwinnett,40138,MB,3,30.6,408.8,13.7,0.0,453.1,453.1,481.7,453.1,8.99,1,NTD fuel split between MB and CB looks misallocated (MB 4.7 mi/gal; CB 0.8 mi/gal): use the MSA pool
+ATL,Ride Gwinnett,40138,CB,3,13.8,1098.6,6.2,0.0,1118.5,1118.5,1131.4,1118.5,5.02,1,NTD fuel split between MB and CB looks misallocated (MB 4.7 mi/gal; CB 0.8 mi/gal): use the MSA pool
+WAS,Washington Metropolitan Area Transit Authority,30030,HR,1,6.3,165.2,34.2,0.0,205.7,205.7,273.6,205.7,795.21,1,8.1 passengers per car; 6.45 kWh per car-mile
+WAS,Washington Metropolitan Area Transit Authority,30030,MB,3,13.9,242.2,6.3,0.0,262.4,256.8,275.4,262.4,339.33,1,
+WAS,Montgomery County Ride On,30051,MB,3,21.6,355.9,9.7,0.0,387.3,377.4,407.5,387.3,73.19,1,
+WAS,Fairfax Connector,30068,MB,3,28.7,343.5,12.9,0.0,385.1,385.1,411.9,385.1,46.23,1,
+WAS,PRTC OmniRide,30070,CB,3,9.5,228.4,4.3,0.0,242.3,242.3,251.2,242.3,26.94,1,
+WAS,PRTC OmniRide,30070,MB,3,34.6,601.4,15.5,0.0,651.6,651.6,683.8,651.6,5.41,1,
+WAS,Alexandria DASH,30071,MB,3,27.0,431.4,12.2,0.0,470.6,470.6,495.8,470.6,12.06,1,
+WAS,Virginia Railway Express,30073,CR,2,3.0,268.8,16.3,0.0,288.1,288.1,320.4,288.1,49.66,1,
+WAS,Arlington Transit,30080,MB,3,41.7,831.6,18.7,0.0,892.0,815.3,931.0,892.0,5.82,1,
+WAS,Loudoun County Transit,30081,CB,3,8.7,239.4,3.9,0.0,252.0,252.0,260.2,252.0,7.61,1,
+WAS,Prince George's County TheBus,30085,MB,3,25.8,434.7,11.6,0.0,472.1,472.1,496.2,472.1,15.0,1,
+WAS,Maryland Transit Administration (MARC),30034,CR,2,4.6,324.2,25.0,0.0,353.8,353.8,403.6,353.8,106.78,1,MARC Penn/Camden/Brunswick lines; NTD primary UZA Baltimore; serves Washington and Baltimore MSAs
+MIA,Miami-Dade Transit,40034,HR,1,7.1,165.2,38.4,0.0,210.6,210.6,286.9,210.6,101.77,1,
+MIA,Miami-Dade Transit,40034,MB,3,10.7,165.0,4.8,0.0,180.5,168.0,190.5,180.5,278.41,1,
+MIA,Miami-Dade Transit,40034,CB,3,10.0,124.7,4.5,0.0,139.2,139.2,148.6,139.2,15.51,1,
+MIA,Miami-Dade Transit,40034,MG,12,32.6,244.4,176.8,0.0,453.8,453.8,805.1,453.8,6.73,1,Metromover
+MIA,Broward County Transit,40029,MB,3,15.4,280.2,6.9,0.0,302.5,302.5,316.9,302.5,114.45,1,
+MIA,Palm Tran,40037,MB,3,20.0,328.6,9.0,0.0,357.6,357.6,376.2,357.6,45.51,1,
+MIA,South Florida RTA (Tri-Rail),40077,CR,2,4.0,182.3,21.8,0.0,208.1,208.1,251.3,208.1,112.8,1,
+PHL,Southeastern Pennsylvania Transportation Authority,30019,HR,1,5.7,111.0,31.1,0.0,147.8,147.8,209.7,147.8,224.0,1,
+PHL,Southeastern Pennsylvania Transportation Authority,30019,CR,2,5.3,125.7,28.7,0.0,159.7,159.7,216.7,159.7,286.95,1,Regional Rail (all electric)
+PHL,Southeastern Pennsylvania Transportation Authority,30019,SR,0,27.1,129.1,147.2,0.0,303.4,303.4,596.0,303.4,32.64,1,
+PHL,Southeastern Pennsylvania Transportation Authority,30019,TB,11,12.5,167.5,5.6,0.0,185.7,185.7,197.3,185.7,7.77,1,
+PHL,Southeastern Pennsylvania Transportation Authority,30019,MB,3,15.5,249.3,7.0,0.0,271.7,271.7,286.2,271.7,295.67,1,
+PHL,Port Authority Transit Corporation (PATCO),20075,HR,1,6.7,166.4,36.3,0.0,209.4,209.4,281.7,209.4,48.55,1,
+PHL,Delaware Transit Corporation (DART First State),30075,MB,3,26.1,340.3,11.7,0.0,378.0,378.0,402.4,378.0,42.72,1,statewide agency
+PHL,Pennsylvania DOT (Keystone Service),30057,CR,2,4.2,74.6,22.5,0.0,101.2,101.2,146.0,101.2,39.36,1,Amtrak-operated Harrisburg-Philadelphia service; identical kWh reported RY2023 and RY2024
+PHX,City of Phoenix Public Transit (Valley Metro),90032,MB,3,30.1,499.6,13.5,0.0,543.2,513.7,571.2,374.0,84.82,1,
+PHX,Valley Metro RPTA,90136,MB,3,47.2,746.3,21.2,0.0,814.8,752.9,858.9,814.8,31.37,1,other fuel 57835 gal-eq of unknown type treated as diesel
+PHX,Valley Metro Rail,90209,LR,0,10.3,108.7,56.1,0.0,175.1,175.1,286.6,175.1,66.39,1,
+BOS,Massachusetts Bay Transportation Authority,10003,HR,1,3.9,93.8,21.2,0.0,119.0,119.0,161.2,119.0,285.91,1,
+BOS,Massachusetts Bay Transportation Authority,10003,LR,0,13.1,97.5,71.2,0.0,181.8,181.8,323.3,181.8,91.72,1,
+BOS,Massachusetts Bay Transportation Authority,10003,CR,2,2.9,168.8,15.6,0.0,187.3,187.3,218.4,187.3,623.65,1,
+BOS,Massachusetts Bay Transportation Authority,10003,MB,3,11.4,192.5,5.1,0.0,209.0,205.4,219.7,209.0,222.94,1,
+BOS,Massachusetts Bay Transportation Authority,10003,RB,3,8.5,263.7,3.8,0.0,276.0,276.0,283.9,276.0,19.33,1,Silver Line
+BOS,Massachusetts Bay Transportation Authority,10003,FB,4,0.0,1044.6,0.0,0.0,1044.6,1044.6,1044.6,1044.6,10.85,1,
+BOS,Brockton Area Transit Authority,10004,MB,3,13.0,191.2,5.8,0.0,210.0,210.0,222.1,210.0,12.06,1,
+BOS,Merrimack Valley Transit,10013,MB,3,15.0,216.8,6.8,0.0,238.5,238.5,252.6,238.5,13.22,1,
+RIV,Omnitrans,90029,MB,3,24.8,361.2,11.2,0.0,397.2,364.2,420.3,397.2,33.67,1,
+RIV,Riverside Transit Agency,90031,MB,3,20.5,235.8,9.2,0.0,265.5,244.1,284.7,265.5,36.68,1,
+RIV,Riverside Transit Agency,90031,CB,3,10.7,125.2,4.8,0.0,140.7,129.3,150.7,140.7,6.4,1,
+RIV,SunLine Transit Agency,90079,MB,3,16.4,288.9,7.4,0.0,312.7,287.8,328.0,312.7,19.86,1,primary UZA Indio-Palm Desert-Palm Springs (Riverside County)
+RIV,Victor Valley Transit Authority,90148,MB,3,59.5,748.6,26.7,0.0,834.8,768.1,890.4,834.8,6.95,1,primary UZA Victorville-Hesperia-Apple Valley (San Bernardino County)
+SF,San Francisco Bay Area Rapid Transit District (BART),90003,HR,1,5.2,60.5,28.0,0.0,93.6,93.6,149.3,93.6,740.86,1,agency reports 86% greenhouse-gas-free contracted electricity in 2024 (market-based)
+SF,San Francisco Bay Area Rapid Transit District (BART),90003,YR,2,15.3,226.7,82.9,0.0,324.9,324.9,489.6,100.0,8.99,1,eBART diesel multiple units; fuel reported as bio-diesel
+SF,San Francisco Municipal Transportation Agency,90015,MB,3,9.7,181.2,4.4,0.0,195.3,195.3,204.4,195.3,168.81,1,
+SF,San Francisco Municipal Transportation Agency,90015,TB,11,9.5,60.2,4.3,0.0,74.0,74.0,82.8,74.0,65.86,1,
+SF,San Francisco Municipal Transportation Agency,90015,LR,0,15.6,126.8,84.6,0.0,226.9,226.9,395.0,226.9,66.01,1,
+SF,San Francisco Municipal Transportation Agency,90015,SR,0,18.9,82.6,102.8,0.0,204.3,204.3,408.5,204.3,5.12,1,historic streetcar
+SF,AC Transit,90014,MB,3,17.8,265.1,8.0,0.0,290.9,290.9,307.5,290.9,116.03,1,
+SF,AC Transit,90014,RB,3,7.0,150.1,3.1,0.0,160.2,160.2,166.8,160.2,12.45,1,
+SF,AC Transit,90014,CB,3,9.2,225.3,4.1,0.0,238.6,238.6,247.3,238.6,6.25,1,Transbay
+SF,Peninsula Corridor JPB (Caltrain),90134,CR,2,3.9,227.9,21.1,0.0,252.9,252.9,294.8,252.9,144.2,1,all-diesel in RY2024; electrified service from RY2025 (55.3 GWh and 1.16 M gal)
+SF,SamTrans,90009,MB,3,19.9,436.4,8.9,0.0,465.2,465.2,483.7,465.2,37.72,1,
+SF,Golden Gate Bridge Highway and Transportation District,90016,MB,3,11.9,193.7,5.3,0.0,210.9,210.9,222.0,210.9,21.19,1,
+SF,Golden Gate Bridge Highway and Transportation District,90016,FB,4,0.0,988.4,0.0,0.0,988.4,988.4,988.4,988.4,14.78,1,
+SF,San Francisco Bay Ferry (WETA),90225,FB,4,0.0,827.8,0.0,0.0,827.8,827.8,827.8,827.8,35.32,1,
+SF,Marin Transit,90234,MB,3,25.3,313.1,11.4,0.0,349.7,349.7,373.3,349.7,12.2,1,
+SF,County Connection (CCCTA),90078,MB,3,29.3,473.8,13.2,0.0,516.2,516.2,543.5,516.2,9.31,1,primary UZA Concord-Walnut Creek
+SF,Livermore Amador Valley Transit Authority,90144,MB,3,29.0,435.0,13.0,0.0,477.0,477.0,504.1,477.0,6.32,1,primary UZA Livermore-Pleasanton-Dublin
+SF,Tri Delta Transit,90162,MB,3,40.1,664.7,18.0,0.0,722.8,722.8,760.1,722.8,5.95,1,primary UZA Antioch
+DET,Detroit Department of Transportation,50119,MB,3,16.0,242.8,7.2,0.0,266.0,266.0,280.9,266.0,70.12,1,
+DET,Suburban Mobility Authority for Regional Transportation (SMART),50031,MB,3,25.6,333.8,11.5,0.0,370.8,370.8,394.7,370.8,46.35,1,
+SEA,King County Metro,00001,MB,3,14.2,238.4,6.4,0.0,259.0,259.0,272.3,249.1,275.56,1,
+SEA,King County Metro,00001,TB,11,14.6,115.7,6.5,0.0,136.8,136.8,150.4,136.8,19.97,1,
+SEA,Sound Transit,00040,LR,0,4.7,37.6,25.5,0.0,67.8,67.8,118.6,67.8,232.62,1,agency reports 84% renewable electricity in 2024 (market-based)
+SEA,Sound Transit,00040,CB,3,9.1,144.2,4.1,0.0,157.4,155.9,165.8,118.0,122.86,1,ST Express
+SEA,Sound Transit,00040,CR,2,2.9,212.3,15.6,0.0,230.8,230.8,261.8,230.8,45.96,1,Sounder
+SEA,Sound Transit,00040,MB,3,10.4,220.3,4.7,0.0,235.3,235.3,245.0,235.3,6.21,1,
+SEA,Community Transit,00029,MB,3,22.4,359.5,10.1,0.0,392.0,392.0,412.9,33.9,39.29,1,no diesel reported; 'other fuel' gal-eq assumed to be renewable diesel and treated as bio-diesel
+SEA,Community Transit,00029,CB,3,9.2,266.3,4.1,0.0,279.7,279.7,288.3,13.9,12.58,1,no diesel reported; 'other fuel' gal-eq assumed to be renewable diesel and treated as bio-diesel
+SEA,Pierce Transit,00003,MB,3,17.8,209.4,8.0,0.0,235.2,216.4,251.8,235.2,31.18,1,
+SEA,Everett Transit,00005,MB,3,27.0,289.0,12.1,0.0,328.1,328.1,353.3,328.1,5.79,1,
+SEA,Washington State Ferries,00035,FB,4,0.0,830.8,0.0,0.0,830.8,830.8,830.8,757.2,135.01,1,vehicle ferries: all fuel allocated to passengers (upper bound); also serves Kitsap and other counties
