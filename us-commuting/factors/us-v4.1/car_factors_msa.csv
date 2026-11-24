@@ -1,0 +1,17 @@
+msa,msa_name,lodes_states,lodes_year,occupancy,ice_vehicle_and_fuel_g_vkm,ice_infrastructure_g_vkm,ice_total_g_vkm,ice_g_per_passenger_km,ice_low_g_vkm,ice_high_g_vkm,egrid_subregion,grid_g_per_kwh,grid_ratio_to_us,bev_vehicle_g_vkm,bev_fuel_g_vkm,bev_infrastructure_g_vkm,bev_total_g_vkm,bev_g_per_passenger_km,bev_over_ice
+NY,New York-Newark-Jersey City,"ny,nj",2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,NYCW,507.0,1.266,40.4,117.2,13.4,171.0,143.7,0.595
+LA,Los Angeles-Long Beach-Anaheim,ca,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,CAMX,244.8,0.611,40.4,56.6,13.4,110.3,92.7,0.384
+CHI,Chicago-Naperville-Elgin,"il,in",2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,RFCW,467.3,1.167,40.4,108.0,13.4,161.8,136.0,0.563
+DAL,Dallas-Fort Worth-Arlington,tx,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,ERCT,389.2,0.972,40.4,90.0,13.4,143.7,120.8,0.5
+HOU,Houston-Pasadena-The Woodlands,tx,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,ERCT,389.2,0.972,40.4,90.0,13.4,143.7,120.8,0.5
+ATL,Atlanta-Sandy Springs-Roswell,ga,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,SRSO,440.0,1.099,40.4,101.7,13.4,155.5,130.7,0.541
+WAS,Washington-Arlington-Alexandria,"dc,va,md,wv",2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,RFCE,332.4,0.83,40.4,76.9,13.4,130.6,109.8,0.454
+MIA,Miami-Fort Lauderdale-West Palm Beach,fl,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,FRCC,442.1,1.104,40.4,102.2,13.4,156.0,131.1,0.543
+PHL,Philadelphia-Camden-Wilmington,"pa,nj,de,md",2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,RFCE,332.4,0.83,40.4,76.9,13.4,130.6,109.8,0.454
+PHX,Phoenix-Mesa-Chandler,az,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,AZNM,365.8,0.913,40.4,84.6,13.4,138.3,116.2,0.481
+BOS,Boston-Cambridge-Newton,"ma,nh",2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,NEWE,302.7,0.756,40.4,70.0,13.4,123.7,104.0,0.431
+RIV,Riverside-San Bernardino-Ontario,ca,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,CAMX,244.8,0.611,40.4,56.6,13.4,110.3,92.7,0.384
+SF,San Francisco-Oakland-Fremont,ca,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,CAMX,244.8,0.611,40.4,56.6,13.4,110.3,92.7,0.384
+DET,Detroit-Warren-Dearborn,mi,2021,1.19,274.0,13.4,287.4,241.5,258.2,385.0,RFCM,548.7,1.37,40.4,126.8,13.4,180.6,151.8,0.628
+SEA,Seattle-Tacoma-Bellevue,wa,2023,1.19,274.0,13.4,287.4,241.5,258.2,385.0,NWPP,304.9,0.761,40.4,70.5,13.4,124.3,104.4,0.432
+US,United States (fallback),,,1.19,274.0,13.4,287.4,241.5,258.2,385.0,US,400.5,1.0,40.4,92.6,13.4,146.3,123.0,0.509

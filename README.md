@@ -46,7 +46,7 @@ paths inside a notebook are relative to that folder; the shared networks are rea
 `../networks/` from `us-commuting/` and `../../../networks/` from a city folder.
 
 The run tag (`RUN_TAG` in 05.10, repeated in 05.11) names the commute tables and the figures of one
-set of routing and factor choices. Current: `us-v4-centre`. Earlier tags are kept beside it on
+set of routing and factor choices. Current: `us-v4.1-centre`. Earlier tags are kept beside it on
 scratch and under `figures/earlier-runs/`.
 
 ## Rules that hold in every metro
@@ -66,7 +66,7 @@ scratch and under `figures/earlier-runs/`.
   fetch: feet feeds are converted to metres in place, idempotently. Once cafein decides the unit per
   feed the step becomes a no-op.
 - **Unresolved factors.** A transit leg with no factor row keeps its time and gets no grams; 05.10
-  counts those pairs. Seattle's monorail (route type 12) is the known case.
+  counts those pairs, zero in every metro since the v4.1 rows (Seattle's monorail was the case).
 
 ## Adding a metro
 
@@ -84,7 +84,10 @@ scratch and under `figures/earlier-runs/`.
 
 ## Factors
 
-`us-commuting/factors/us-v4/` holds the factor set in force, version v4 (2026-11-20, draft): the
-source document `US_PARAMETERS_FOR_CLAUDE_CODE.md`, the car and transit factor tables, and the car
-travel-time instructions with the Urban Mobility Report congestion indices. 05.10 records which files
-and version a run used in its parameter table.
+`us-commuting/factors/us-v4.1/` holds the factor set in force: version v4 (2026-11-20, draft), the
+source document `US_PARAMETERS_FOR_CLAUDE_CODE.md`, the car and transit factor tables and the car
+travel-time instructions with the Urban Mobility Report congestion indices, plus the v4.1 transit patch
+of 2026-11-24 (`TRANSIT_FACTORS_V4_1_PATCH.md`: rows for monorail and people movers, route type 12, and
+the cable car, type 5; the 58 earlier rows unchanged). `us-v4/` is kept as delivered. 05.10 records
+which files and version a run used in its parameter table; a route type with no row anywhere takes the
+light-rail row as a stand-in, never cafein's shipped values.
